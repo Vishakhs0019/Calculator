@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: palevioletred;
+}
+#root{
+    width: 400px;
+    height: 380px;
+    margin: 250px;
+    background-color: blue;
+    border-color: blue;
+}
+h3{
+    
+    padding-top: 5px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: italic;
+    color: tomato;
+
+}
+#final{
+
+    padding-top: 5px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    
+    font-style: normal;
+    background-color: white;
+    height: 40px;
+    width: 180px;
+
+    pointer-events: none;
+
+}
+#lbl{
+    width: 90px;
+    height: 30px;
+    color: orange;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn{
+
+    width: 90px;
+    height: 80px;
+    border-radius: 6px;
+
+}
+.btn:hover{
+
+    background-color: cornflowerblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.btnn:hover{
+
+    background-color: cornflowerblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.btnn{
+
+    width: 90px;
+    height: 80px;
+    border-radius: 180px;
+    background-color: orange;
+    
+    
+}
+.btnnn{
+
+    width: 117px;
+    height: 64px;
+    border-radius: 6px;
+
+
+}
+.btnnn:hover{
+    background-color: cornflowerblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#num{
+    display: flex;
+    justify-content: center;
+}
+#numb{
+    width: 70%;
+    height: 320px;
+    background-color: blue;
+}
+#oper{
+    width: 30%;
+    height: 320px;
+    background-color: blue;
+    
+}

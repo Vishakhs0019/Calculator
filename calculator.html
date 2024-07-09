@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+   <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+    <div id="root">
+        <div id="result">
+            <table>
+                <tr>
+                    <td><h3><label style="font-size: x-large;">CALCULATOR</label></h3></td>
+                    <td><input type="text" id="final"></td>
+                </tr>
+             </table>
+        </div>
+        <div id="num">
+            <div id="numb">
+                <button class="btn" id="btn1" onclick="add(1)"><label style="font-size: x-large;">1</label></button>
+                <button class="btn" id="btn2" onclick="add(2)"><label style="font-size: x-large;">2</label></button>
+                <button class="btn" id="btn3" onclick="add(3)"><label style="font-size: x-large;">3</label></button>
+                <button class="btn" id="btn4" onclick="add(4)"><label style="font-size: x-large;">4</label></button>
+                <button class="btn" id="btn5" onclick="add(5)"><label style="font-size: x-large;">5</label></button>
+                <button class="btn" id="btn6" onclick="add(6)"><label style="font-size: x-large;">6</label></button>
+                <button class="btn" id="btn7" onclick="add(7)"><label style="font-size: x-large;">7</label></button>
+                <button class="btn" id="btn8" onclick="add(8)"><label style="font-size: x-large;">8</label></button>
+                <button class="btn" id="btn9" onclick="add(9)"><label style="font-size: x-large;">9</label></button>
+                <button class="btn" id="btn10" onclick="add(0)"><label style="font-size: x-large;">0</label></button>
+                <button class="btn" id="btn11" onclick="add('.')"><label style="font-size: x-large;">.</label></button>
+                <button class="btnn" id="btnn" onclick="sum('=')"><label style="font-size: x-large;">=</label></button>
+
+            </div>
+            <div id="oper">
+                <button class="btnnn" id="btnplus" onclick="add('+')" ><label style="font-size: x-large;">+</label></button>
+                <button class="btnnn" id="btnsub" onclick="add('-')" ><label style="font-size: x-large;">-</label></button>
+                <button class="btnnn" id="btndiv" onclick="add('/')"><label style="font-size: x-large;">/</label></button>
+                <button class="btnnn" id="btnmul" onclick="add('*')"><label style="font-size: x-large;">*</label></button>
+                <button class="btnnn" id="btnmul" onclick="erase()"><label id="lbl">C</label></button>
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
